@@ -13,6 +13,11 @@
 
 > Projeto passado pelo Professor Gabriel no Instituto Proa. O objetivo era fazer um clone do instagram onde os posts eram pessoas que eu admirava (sendo reais ou não) mostrando o que elas mais queriam
 
+### Para acessar
+
+Utilize este link: https://instagram-clone-ashy-three.vercel.app/
+
+
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
