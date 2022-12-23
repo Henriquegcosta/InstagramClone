@@ -13,15 +13,16 @@ import React , {useState} from 'react'
 export function Post(prop) {
 
     let heartstyle = { color: "black", fill: "red"}
-    let red = {color: "red"}
     const [heart, setHeart] = useState(null); 
-
+    const [numero, setNumero] = useState(61);
     
     function setHeartRed(){
         if(heart === null){
             setHeart(!heart)
+            setNumero(numero + 1)
         } else {
             setHeart(null);
+            setNumero(numero - 1)
         }
 
     }
@@ -61,7 +62,7 @@ export function Post(prop) {
                 </IconContext.Provider>
 
                 <section className="like" >
-                    <span>61 curtidas</span>
+                    <span>{numero} Curtidas</span>
                 </section>
 
                 <div className="legend" >
